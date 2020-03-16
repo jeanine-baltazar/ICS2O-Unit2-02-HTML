@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html lang="en-ca">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description"content="Webpage with more javascript">
+      <meta name="keywords"content= "Hello, World!">
+      <meta name="author"content= "Jeanine Baltazar">
+      <meta name="viewport"content="width=device-width, initial-scale=1.0">
+      <title>Jeanine's Webpage</title>
+      <link rel="stylesheet" href="mystyle2.css">
+    </head>
+    <body>
+      <h1>Jeanine's Webpage</h1>
+      <p>Hello, World! This webpage will include a button that changes the font, size, and color of a paragraph of text.</p>
+      <p id="text">This is the text.</p>
+      <button onclick="change()">Click me!</button>
+      <script>
+        function change() {
+          text.style.fontSize = "200%";
+          text.style.fontFamily = "Comic Sans MS";
+          text.style.color = "red";
+        }
+      </script>
+    </body>
+</html>
